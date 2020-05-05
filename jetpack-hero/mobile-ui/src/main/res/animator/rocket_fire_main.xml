@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="pathData"
+        android:duration="100"
+        android:valueFrom="@string/rocket_fire_main"
+        android:valueTo="@string/rocket_fire_main_phase_1"
+        android:valueType="pathType"
+        />
+
+    <objectAnimator
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="pathData"
+        android:startOffset="100"
+        android:duration="100"
+        android:valueFrom="@string/rocket_fire_main_phase_1"
+        android:valueTo="@string/rocket_fire_main_phase_2"
+        android:valueType="pathType"
+        />
+
+    <objectAnimator
+        android:interpolator="@android:interpolator/accelerate_decelerate"
+        android:propertyName="pathData"
+        android:repeatCount="infinite"
+        android:repeatMode="restart"
+        android:startOffset="200"
+        android:duration="100"
+        android:valueFrom="@string/rocket_fire_main_phase_2"
+        android:valueTo="@string/rocket_fire_main_phase_3"
+        android:valueType="pathType"
+        />
+</set>

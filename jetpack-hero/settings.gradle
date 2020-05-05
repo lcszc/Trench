@@ -1,0 +1,2 @@
+include ':mobile-ui'
+rootProject.name = "Jetpack Hero Morphing"

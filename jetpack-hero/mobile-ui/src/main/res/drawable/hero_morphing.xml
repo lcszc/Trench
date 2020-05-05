@@ -1,0 +1,38 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/hero">
+
+    <!-- fly, fly, fly! -->
+    <target
+        android:name="main"
+        android:animation="@animator/hero_fly"
+        />
+
+    <!-- let it burn -->
+    <target
+        android:name="rocket_fire_secondary"
+        android:animation="@animator/rocket_fire_secondary"
+        />
+
+    <target
+        android:name="rocket_fire_main"
+        android:animation="@animator/rocket_fire_main"
+        />
+
+    <!-- ok. lets make some moves. -->
+    <target
+        android:name="green_guy_arm_right"
+        android:animation="@animator/green_guy_move_arm_right"
+        />
+
+    <target
+        android:name="green_guy_arm_left"
+        android:animation="@animator/green_guy_move_arm_left"
+        />
+
+    <target
+        android:name="green_guy_leg_right"
+        android:animation="@animator/green_guy_move_leg_right"
+        />
+</animated-vector>

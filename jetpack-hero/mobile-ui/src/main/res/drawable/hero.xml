@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    android:width="166dp"
+    android:height="175dp"
+    android:viewportWidth="351"
+    android:viewportHeight="369"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:name="main"
+        android:translateX="-62"
+        android:translateY="75">
+        <path
+            android:pathData="@string/rocket_path_1"
+            android:fillColor="#757575"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_2"
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_3"
+            android:fillColor="#f3f3f3"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_4"
+            android:fillColor="#5bc348"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_5"
+            android:fillColor="#c6c6c5"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_6"
+            android:fillColor="#c6c6c5"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_7"
+            android:fillColor="#f3f3f3"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_8"
+            android:fillColor="#5bc348"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_9"
+            android:fillColor="#c6c6c5"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_10"
+            android:fillColor="#d3dde2"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_11"
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_12"
+            android:fillColor="#c6c6c5"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_13"
+            android:fillColor="#1967d2"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:pathData="@string/rocket_path_14"
+            android:fillColor="#000000"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <!-- animation target -->
+        <path
+            android:name="rocket_fire_main"
+            android:pathData="@string/rocket_fire_main"
+            android:fillColor="#e37400"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <!-- animation target -->
+        <path
+            android:name="rocket_fire_secondary"
+            android:pathData="@string/rocket_fire_secondary"
+            android:fillColor="#fbbc04"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <!-- animation target -->
+        <path
+            android:name="green_guy_arm_right"
+            android:pathData="@string/path_green_guy_arm_right"
+            android:fillColor="#78c257"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <!-- animation target -->
+        <path
+            android:name="green_guy_leg_right"
+            android:pathData="@string/path_green_guy_leg_right"
+            android:fillColor="#78c257"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:name="green_guy_leg_left"
+            android:pathData="@string/path_green_guy_leg_left"
+            android:fillColor="#78c257"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:name="green_guy_white_line"
+            android:pathData="@string/path_green_guy_white_line"
+            android:fillColor="#ffffff"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:name="green_guy_body"
+            android:pathData="@string/path_green_guy_body"
+            android:fillColor="#78c257"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:name="green_guy_eyes"
+            android:pathData="@string/path_green_guy_eyes"
+            android:fillColor="#ffffff"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <path
+            android:name="green_guy_rocket_belt"
+            android:pathData="@string/path_green_guy_belt"
+            android:fillColor="#f3f3f3"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"
+            />
+
+        <!-- animation target -->
+        <path
+            android:name="green_guy_arm_left"
+            android:pathData="@string/path_green_guy_arm_left"
+            android:fillColor="#78c257"
+            android:strokeWidth="1"
+            android:fillType="evenOdd"/>
+    </group>
+</vector>
