@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    As we're using the same interpolator on all animators,
+    we can define a default one so we can change it easily.
+
+    You can also override its properties if you want to.
+-->
+
+<accelerateDecelerateInterpolator/>
