@@ -1,3 +1,4 @@
 rootProject.name = "Trench"
 
 include ':jetpack-hero'
+include ':heart-beat'
