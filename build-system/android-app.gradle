@@ -8,6 +8,7 @@ android {
     compileSdkVersion Trench.Sdk.compile
 
     defaultConfig {
+        applicationId "dev.itscorey.jetpackheromorphing"
         minSdkVersion Trench.Sdk.min
         targetSdkVersion Trench.Sdk.target
 
@@ -20,10 +21,6 @@ android {
         debug {
             minifyEnabled false
         }
-    }
-
-    kotlinOptions{
-        jvmTarget = '1.8'
     }
 }
 
