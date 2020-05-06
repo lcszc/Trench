@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="vector"
+    android:width="92dp"
+    android:height="92dp"
+    android:viewportWidth="480"
+    android:viewportHeight="480">
+    <path
+        android:name="heart_stroke"
+        android:pathData="@string/path_heart_stroke"
+        android:fillColor="#424242"
+        android:strokeWidth="1"
+        />
+
+    <path
+        android:name="heart"
+        android:pathData="@string/path_heart"
+        android:fillColor="#616161"
+        android:strokeWidth="1"
+        />
+
+    <path
+        android:name="heart_shadow"
+        android:pathData="@string/path_heart_shadow"
+        android:fillColor="#757575"
+        android:strokeWidth="1"
+        />
+</vector>
