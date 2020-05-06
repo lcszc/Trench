@@ -1,0 +1,7 @@
+apply from: "$rootDir/build-system/android-app.gradle"
+
+android {
+    defaultConfig {
+        applicationId "dev.itscorey.apple.rainbow"
+    }
+}
