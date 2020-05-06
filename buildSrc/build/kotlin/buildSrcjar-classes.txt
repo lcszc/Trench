@@ -1,0 +1,1 @@
+C:\Corey\Morphing\buildSrc\build\classes\kotlin\main\config\GradlePlugins.class;C:\Corey\Morphing\buildSrc\build\classes\kotlin\main\config\Trench$Sdk.class;C:\Corey\Morphing\buildSrc\build\classes\kotlin\main\config\Trench.class
