@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    android:interpolator="@anim/default_interpolator"
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:propertyName="pathData"
+        android:startOffset="500"
+        android:duration="300"
+        android:repeatMode="reverse"
+        android:repeatCount="5"
+        android:valueFrom="@string/path_heart_stroke"
+        android:valueTo="@string/path_heart_stroke_morph"
+        android:valueType="pathType"
+        />
+
+    <objectAnimator
+        android:propertyName="fillAlpha"
+        android:duration="300"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"
+        />
+</set>

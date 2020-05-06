@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    If you have checked out the `JetPack Hero` sample
+    You probably saw that I was using some startOffset.
+
+    This means that the animation will have a delay before its start.
+    The startOffset was basically the duration of the previous animation.
+
+    In the case below, we've an first objectAnimation that repeats for 6 times
+    and have a duration of 300ms per repetition. It means that the animation will have a total duration of
+    1800ms.
+
+    In the second objectAnimation we can use the startOffset and set it to 1800ms because we want it to start
+    after the previous animator finishes.
+
+    BUT... you can also make the entire set to run sequentially, without needing to specify startOffset!
+
+    Before
+    =======
+
+    <set
+        android:interpolator="@anim/default_interpolator"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <objectAnimator
+            android:startOffset="500"
+            ...
+            />
+
+        <objectAnimator
+            android:startOffset="1800"
+            ...
+            />
+
+        <objectAnimator
+            android:startOffset="1800"
+            ...
+            />
+    </set>
+
+
+    After
+    =====
+    <set
+        android:ordering="sequentially">
+
+        ... No need for startOffset anymore :P
+
+    </set>
+-->
+<set
+    android:interpolator="@anim/default_interpolator"
+    android:ordering="sequentially"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:startOffset="500"
+        android:duration="300"
+        android:repeatMode="reverse"
+        android:repeatCount="5"
+        android:valueFrom="@string/path_heart"
+        android:valueTo="@string/path_heart_phase_1"
+        android:valueType="pathType"
+        />
+
+
+    <!-- Oh, sets can also be defined here -->
+    <!-- This set will play after the previous animation. -->
+    <set android:ordering="together">
+        <objectAnimator
+            android:propertyName="pathData"
+            android:duration="500"
+            android:valueFrom="@string/path_heart"
+            android:valueTo="@string/path_heart_phase_final"
+            android:valueType="pathType"
+            />
+
+        <objectAnimator
+            android:propertyName="fillColor"
+            android:duration="250"
+            android:valueFrom="#616161"
+            android:valueTo="#ff6243"
+            android:valueType="colorType"
+            />
+    </set>
+</set>
