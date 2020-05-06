@@ -1,0 +1,18 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/heart">
+    <target
+        android:name="heart_stroke"
+        android:animation="@animator/heart_stroke_beat"
+        />
+
+    <target
+        android:name="heart_shadow"
+        android:animation="@animator/heart_shadow_beat"
+        />
+
+    <target
+        android:name="heart"
+        android:animation="@animator/heart_beat"
+        />
+</animated-vector>
