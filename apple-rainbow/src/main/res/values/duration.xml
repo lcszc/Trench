@@ -11,4 +11,8 @@
     <!-- This duration is only used by the `f` path -->
     <!-- I don't know why I named it `f` -->
     <integer name="rainbow_short_anim_time">300</integer>
+
+    <!-- Start animation delay -->
+    <!-- This we can avoid creating Handlers -->
+    <integer name="rainbow_start_delay_anim_time">500</integer>
 </resources>

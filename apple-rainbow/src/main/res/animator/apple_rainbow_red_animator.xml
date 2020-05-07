@@ -4,8 +4,18 @@
     android:ordering="sequentially"
     android:interpolator="@android:anim/linear_interpolator">
 
+    <!--
+        By adding this startOffset here we delay the initialization of the animation by
+        the given time (rainbow_start_delay_anim_time = 500ms).
+
+        This way we can avoid creating handlers in our controller (activity or fragment).
+
+        Not needed: Handlers().postDelayed(runnable, time)
+    -->
+
     <objectAnimator
         android:propertyName="pathData"
+        android:startOffset="@integer/rainbow_start_delay_anim_time"
         android:duration="@integer/rainbow_default_anim_time"
         android:valueFrom="@string/path_rainbow_red"
         android:valueTo="@string/path_rainbow_red_to_mid"
