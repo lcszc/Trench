@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector"
+    android:width="320dp"
+    android:height="128dp"
+    android:viewportWidth="320"
+    android:viewportHeight="128"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <path
+        android:name="f"
+        android:pathData="@string/path_rainbow_f"
+        android:fillColor="#61bb46"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="blue"
+        android:pathData="@string/path_rainbow_blue"
+        android:fillColor="#009ddc"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="yellow"
+        android:pathData="@string/path_rainbow_yellow"
+        android:fillColor="#fdb827"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="green"
+        android:pathData="@string/path_rainbow_green"
+        android:fillColor="#61bb46"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="purple"
+        android:pathData="@string/path_rainbow_purple"
+        android:fillColor="#963d97"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="red"
+        android:pathData="@string/path_rainbow_red"
+        android:fillColor="#e03a3e"
+        android:strokeWidth="1"/>
+
+    <path
+        android:name="orange"
+        android:pathData="@string/path_rainbow_orange"
+        android:fillColor="#f5821f"
+        android:strokeWidth="1"/>
+</vector>
