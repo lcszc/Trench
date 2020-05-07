@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:ordering="sequentially"
+    android:interpolator="@android:anim/linear_interpolator">
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:duration="@integer/rainbow_default_anim_time"
+        android:valueFrom="@string/path_rainbow_red"
+        android:valueTo="@string/path_rainbow_red_to_mid"
+        android:valueType="pathType"
+        />
+
+    <objectAnimator
+        android:propertyName="pathData"
+        android:duration="@integer/rainbow_default_anim_time"
+        android:valueFrom="@string/path_rainbow_red_from_mid"
+        android:valueTo="@string/path_rainbow_to_center"
+        android:valueType="pathType"
+        />
+</set>
