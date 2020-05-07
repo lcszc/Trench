@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- These durations can be on dimens or whatever you want to put it. -->
+    <!-- This can also be a reference to Android's default durations -->
+
+    <!-- This duration is common between our animators -->
+    <!-- Could be a reference like @android:integer/config_longAnimTime (500) -->
+
+    <integer name="rainbow_default_anim_time">600</integer>
+
+    <!-- This duration is only used by the `f` path -->
+    <!-- I don't know why I named it `f` -->
+    <integer name="rainbow_short_anim_time">300</integer>
+</resources>
