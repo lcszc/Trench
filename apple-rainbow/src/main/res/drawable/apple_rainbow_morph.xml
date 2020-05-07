@@ -1,0 +1,36 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/apple_rainbow">
+
+    <target
+        android:name="blue"
+        android:animation="@animator/apple_rainbow_blue_animator"
+        />
+
+    <target
+        android:name="yellow"
+        android:animation="@animator/apple_rainbow_yellow_animator"
+        />
+
+    <target
+        android:name="green"
+        android:animation="@animator/apple_rainbow_green_animator"
+        />
+
+    <target
+        android:name="purple"
+        android:animation="@animator/apple_rainbow_purple_animator"
+        />
+
+    <target
+        android:name="red"
+        android:animation="@animator/apple_rainbow_red_animator"/>
+
+    <target android:name="orange"
+        android:animation="@animator/apple_rainbow_orange_animator"/>
+
+    <target
+        android:name="f"
+        android:animation="@animator/apple_rainbow_f_animator"/>
+</animated-vector>
